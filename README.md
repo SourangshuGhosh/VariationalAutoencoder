@@ -5,7 +5,6 @@ I recommend the PyTorch version. It includes an example of a more expressive var
 
 Variational inference is used to fit the model to binarized MNIST handwritten digits images. An inference network (encoder) is used to amortize the inference and share parameters across datapoints. The likelihood is parameterized by a generative network (decoder).
 
-Blog post: https://jaan.io/what-is-variational-autoencoder-vae-tutorial/
 
 Example output with importance sampling for estimating the marginal likelihood on Hugo Larochelle's Binary MNIST dataset. Finaly marginal likelihood on the test set of `-97.10` nats.
 
@@ -81,3 +80,9 @@ step:   150000  train elbo: -97.84
 step:   150000          valid elbo: -103.06     valid log p(x): -95.92
 step:   150000          test elbo: -101.64      test log p(x): -95.33
 ```
+
+## Author:
+Sourangshu Ghosh
+
+## License
+The code is distributed under the MIT License
