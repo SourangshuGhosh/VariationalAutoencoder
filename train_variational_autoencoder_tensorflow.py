@@ -1,3 +1,5 @@
+# Author Sourangshu Ghosh IIT Kharagpur
+
 import itertools
 import numpy as np
 import os
