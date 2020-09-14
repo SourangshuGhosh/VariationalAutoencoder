@@ -1,3 +1,5 @@
+# Author: Sourangshu Ghosh
+
 """Credit: mostly based on Ilya's excellent implementation here: https://github.com/ikostrikov/pytorch-flows"""
 import numpy as np
 import torch
